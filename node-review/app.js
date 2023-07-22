@@ -9,5 +9,10 @@ console.log("Log 2: ", typeof server);
 
 
 
-server.get(,);
+server.get("/",(req,res)=>{
+    res.send("You have successfully reached the server")
+});
 // set up a "/" endpoint
+server.listen(9090,()=>{
+    console.log("Server Started at 9090 --- ")
+})

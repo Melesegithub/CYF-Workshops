@@ -37,4 +37,7 @@ What type of inputs should we pass to the `server.get` method? Use the express d
  
 
 {YOUR_ANSWER_HERE}
+1. API A program that allows two or more computers comunnicate each other by sending and receiving certain type of data.
+2. The purpose of API is to exchange data between two computers with out actualy accesssing the database of each side of computers.
 
+3. A computer like a server has a connection with the network.
