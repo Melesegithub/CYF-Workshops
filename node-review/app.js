@@ -9,9 +9,12 @@ const server = express();
 
 
 
-server.get("/",function() {
-    response.status(200).send("You've successfully reached the server");
+server.get("/albums",function(request,response) {
+    response.status(200).send(`You've successfully reached the server ${albums}`);
 });
+server.listen(9091,()=>{
+    console.log(`You've response body ${albums}`);
+})
 // set up a "/" endpoint
 // it should respond with "You've successfully reached the server"
 // it should respond with status code 200
