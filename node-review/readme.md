@@ -23,11 +23,11 @@ Q1) What output do you get in your terminal when you run the command `npm start`
 Start 
 node app.js
 Explain why you get this answer. How can you fix this issue?
-
+Because we did not set up '/' endpoint and we did not send a response and listen at 9090.
 2) Fix the problem in Q1). Restart the server and call the `localhost:9090` endpoint again - what do you get in your terminal this time? Explain your answer.
 
 {YOUR_ANSWER_HERE}
-
+You have successfully reached the server
 3) Double check you're not getting any errors in the terminal when you make a request to the localhost:9090 endpoint.
 Additionally, test the server again using another client application like Postman or the browser.
 
